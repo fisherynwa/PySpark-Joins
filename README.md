@@ -17,7 +17,7 @@ df_joined = df_countries.join(df_regions, df_countries.region_id == df_regions.i
 
 ```
 
-## Resources and Acknowledgments
+## Resources and Platforms
 
 Compute Platform: Databricks Community Edition (used for free server access).
 
