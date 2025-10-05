@@ -14,3 +14,12 @@ df_joined = df_countries.join(df_regions, df_countries.region_id == df_regions.i
   select("country_id", "country", "region", "population", "area_km2", "sub_region_id").\
     join(df_sub_regions, df_countries.sub_region_id == df_sub_regions.id, "left").\
       select("country_id", "country", "region", "sub_region", "population", "area_km2")
+
+```
+
+## Resources and Acknowledgments
+
+Compute Platform: Databricks Community Edition (used for free server access).
+
+Source Data: Provided via a Udemy data engineering course (Country, Region, Sub-Region data).
+
