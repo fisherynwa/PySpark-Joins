@@ -2,7 +2,7 @@
 
 ## Aims of the Repo
 
-This repository contains a chunk of PySpark code and configuration necessary to **load, clean, and enrich** country-level data by applying 3 (sequential) joins with region and sub-region lookup tables.
+This repository contains a set of PySpark code and configuration necessary to **load, clean, and enrich** country-level data by applying 3 (sequential) joins with region and sub-region lookup tables.
 ---
 
 ## PySpark Command Executed
